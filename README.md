@@ -1,26 +1,5 @@
 # Scrap Material Classification
 
-## 📂 Project Structure
-
-This is how the repository is laid out, matching the assignment requirements:
-
-```
-ML_SCRAP_CLASSIFICATION/
-├── src/                          # All the Python code: training, evaluation, and simulation logic
-│   ├── full_pipeline.py          # Stage 1, 2, 3: Data Prep, Training, Evaluation, Model Conversion
-│   └── realtime_simulation.py    # Stage 4: The simulated conveyor belt script
-├── data/
-│   └── TrashNet_dataset/         # The images used for training (Cardboard, Glass, Metal, etc.)
-├── models/
-│   ├── best_model_weights.pth    # The best performing PyTorch model weights
-│   └── classification_model.pt   # The lightweight TorchScript model (our deployment artifact)
-├── results/
-│   └── simulation_results.csv    # The log file from the conveyor belt simulation
-└── README.md                     # (You are reading this!)
-```
-
------
-
 ## Pipeline Overview & Key Decisions
 
 ### 1. Dataset & Preprocessing
